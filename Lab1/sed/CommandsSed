@@ -1,0 +1,4 @@
+1. sed -n '/^Accepted/p' ResultFile
+2.sed '/^Not Accepted/a\Test Again' ResultFile
+3.sed -n '/^Not Accepted.*/p' ResultFile (sed -n '/^Not Accepted/,/Again/p' ResultFile2)
+4.sed 's/^Not Accepted.*/Warning/g' ResultFile

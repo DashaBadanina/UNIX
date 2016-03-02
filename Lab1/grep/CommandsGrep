@@ -1,0 +1,4 @@
+1. grep 'if' *
+2. grep -c --exclude=sqrt 'sqrt' *
+3. grep -l 'sqrt' *
+4. grep -L 'sqrt' *|grep "."
